@@ -15,8 +15,7 @@ using (connection)
         LOG ON (
             NAME=Test_log,
             FILENAME = '{0}\Test_log.ldf'
-        )",
-        @"C:\Users\George"
+        )"
     );
 
     SqlCommand command = new SqlCommand(sql, connection);
